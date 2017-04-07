@@ -1,0 +1,38 @@
+{
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "atom-spotify",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "atom-spotify:toggle"
+            },
+            {
+              "label": "Toggle Shuffle",
+              "command": "atom-spotify:toggleShuffle"
+            },
+            {
+              "label": "Toggle Repeat",
+              "command": "atom-spotify:toggleRepeat"
+            },
+            {
+              "label": "Toggle Play/Pause",
+              "command": "atom-spotify:togglePlayPause"
+            },
+            {
+              "label": "Go To Next Track",
+              "command": "atom-spotify:goToNextTrack"
+            },
+            {
+              "label": "Go To Previous Track",
+              "command": "atom-spotify:goToPreviousTrack"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

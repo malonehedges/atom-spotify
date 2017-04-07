@@ -1,0 +1,29 @@
+{
+  "name": "atom-spotify",
+  "description": "A Spotify integration for Atom",
+  "version": "0.1.0-PRERELEASE",
+  "author": "Malone Hedges <contact@malone.io> (https://malone.io)",
+  "keywords": [
+    "spotify",
+    "atom"
+  ],
+  "homepage": "https://github.com/jaebradley/atomify/",
+  "repository": "https://github.com/malonehedges/atom-spotify",
+  "bugs": "https://github.com/malonehedges/atom-spotify/issues",
+  "main": "lib/atom-spotify",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "consumedServices": {
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
+    }
+  },
+  "dependencies": {
+    "immutable": "^3.8.1",
+    "spotify-application-client": "^1.0.4"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,10 @@
+{
+  "atom-workspace": {
+    "alt-ctrl-s": "atom-spotify:toggleShuffle",
+    "alt-ctrl-r": "atom-spotify:toggleRepeat",
+    "alt-ctrl-p": "atom-spotify:togglePlayPause",
+    "alt-ctrl-l": "atom-spotify:goToNextTrack",
+    "alt-ctrl-j": "atom-spotify:goToPreviousTrack",
+    "alt-ctrl-o": "atom-spotify:openSpotify"
+  }
+}
